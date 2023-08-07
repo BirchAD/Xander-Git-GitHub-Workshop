@@ -3,12 +3,11 @@
 
 def print_names(names):
     """Print names given as a list."""
-    if len(names) == 0:
+    if not names:
         print("Please add your name.")
-    elif len(names) == 1:
-        print(f"Hello, my name is {names[0]}.")
     else:
-        print("List of names for everyone in cohort 11:")
+        if len(names) != 1:
+            print("List of names for everyone in cohort 11:")
         for name in names:
             print(f"Hello, my name is {name}.")
 
