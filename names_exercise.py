@@ -1,4 +1,8 @@
+"""Simple script to print names given as a list."""
+
+
 def print_names(names):
+    """Print names given as a list."""
     if len(names) == 0:
         print("Please add your name.")
     elif len(names) == 1:
@@ -8,12 +12,15 @@ def print_names(names):
         for name in names:
             print(f"Hello, my name is {name}.")
 
+
 def main():
+    """Program entry point."""
     names = [
         # Add name here
     ]
 
     print_names(names)
+
 
 if __name__ == "__main__":
     main()
