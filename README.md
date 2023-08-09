@@ -9,10 +9,11 @@ This workshop aims to teach participants the basics of using Git and GitHub for 
 ## How the Exercise Works
 
 1. **Clone the Repository**:
-   Each participant should clone their forked repository to their local machine using the following command (replace `<username>` with your GitHub username).   Alternatively, you can use the "Clone or download" button on GitHub and then click the "Download ZIP" option to download the repository as a ZIP file. Extract the contents to your local machine:
+   Each participant should clone the repository to their own machine.
+   Alternatively, you can use the "Clone or download" button on GitHub and then click the "Download ZIP" option to download the repository as a ZIP file. Extract the contents to your local machine:
 
 ```
-git clone https://github.com/<username>/Xander-Git-GitHub-Workshop.git
+git clone https://github.com/BirchAD/Xander-Git-GitHub-Workshop.git
 ```
 2. **Create Branch**:
    Create a branch to add your name:
@@ -37,7 +38,9 @@ git push origin <your-branch-name>
    After all the changes are made and reviewed, the organiser will merge the pull requests into the original repository (`Xander-Git-GitHub-Workshop`).
 
 6. **Create Conflicts**:
-   As part of the collaboration process, participants should deliberately make conflicting changes to the `names` list. For example, each participant should change the first    line in the `names` list. This step will demonstrate how to resolve conflicts during collaboration.
+   As part of the collaboration process, participants should deliberately make conflicting changes to the `names` list. For example, each participant should change the first    line in the `names` list, or change variable names. This step will demonstrate how to resolve conflicts during collaboration.
+
+   **Stretch Goal**: Fork the repo, clone to your machine and experiment using rebase and squash.  Then create a pull request to the BirchAD repo.
    
 ## Running the Script
 
