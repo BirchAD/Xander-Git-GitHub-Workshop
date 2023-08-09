@@ -33,8 +33,31 @@ git add names_exercise.py
 git commit -m "Added [Your Name] to the names list"
 git push origin <your-branch-name>
 ```
+
+3. **Create Pull Request**:
+
+
+   1. Go to the repository and click on the "Pull requests" tab located near the top of the repository.
+   2. Click on the green "New pull request" button.
+   3 .In the "base" dropdown, select the target branch (usually "main" or "master") that you want to merge your changes into.
+   4. n the "compare" dropdown, select your branch that contains the changes you've made.
+   5. Review the changes that will be included in the pull request.
+   6. Add a title and description for your pull request, explaining what changes you've made and why they should be merged.
+   7. If necessary, you can assign reviewers to your pull request and make other adjustments.
+   8. Once you're satisfied, click the green "Create pull request" button.
+   9. Your pull request will be created, and reviewers will be able to provide feedback and discuss the changes before the merge.
    
-4. **Merge**:
+   Alternatively, via the branch tab:
+   
+   1. After you've pushed your changes to your branch on GitHub, navigate to your branch in the repository.
+   2. Near the top of the page, you'll see a notification prompting you to create a pull request comparing your branch with the target branch (usually "main"). Click on that notification.
+   3. You'll be taken to a page where you can review the changes between your branch and the target branch.
+   4. Add a title and description for your pull request, explaining the purpose of your changes.
+   5. If needed, you can assign reviewers and make other adjustments.
+   6. Once you're ready, click the "Create pull request" button.
+   7. Your pull request will be created, and the reviewers can provide feedback and discuss the changes before the merge.
+   
+5. **Merge**:
    After all the changes are made and reviewed, the organiser will merge the pull requests into the original repository (`Xander-Git-GitHub-Workshop`).
 
 6. **Create Conflicts**:
