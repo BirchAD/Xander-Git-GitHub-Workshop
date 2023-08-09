@@ -12,7 +12,8 @@ def main():
     names = [
         
         # Add name here
-        Sabina Pun
+        Sabina Pun,
+        
     ]
 
     print_names(names)
