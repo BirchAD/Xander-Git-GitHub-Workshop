@@ -18,6 +18,7 @@ def main():
         # Add name here
     ]
 
+    print("boo")
     print_names(names)
 
 
