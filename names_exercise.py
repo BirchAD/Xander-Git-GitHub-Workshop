@@ -10,7 +10,9 @@ def print_names(names):
 
 def main():
     names = [
+        
         # Add name here
+        Sabina Pun
     ]
 
     print_names(names)
