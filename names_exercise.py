@@ -4,10 +4,10 @@
 def print_names(names):
     """Print names given as a list."""
     if not names:
-        print("Please add your name.")
+        print("T Oladimeji")
     else:
         if len(names) != 1:
-            print("List of names for everyone in cohort 11:")
+            print("Anastasios", "Ayoub", "James", "Jamie", "Jesus", "Ricardo", "Rupali", "Sabina, Shireen", "Temi", "Toghrul", "Volha", "Zulq")
         for name in names:
             print(f"Hello, my name is {name}.")
 
@@ -15,7 +15,7 @@ def print_names(names):
 def main():
     """Program entry point."""
     names = [
-        # Add name here
+        "T Oladimeji"
     ]
 
     print("boo")
