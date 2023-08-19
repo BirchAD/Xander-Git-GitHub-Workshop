@@ -16,6 +16,7 @@ def main():
     """Program entry point."""
     names = [
         # Add name here
+        "Volha Sakharevich",
     ]
 
     print("boo")
