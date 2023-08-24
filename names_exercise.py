@@ -15,7 +15,7 @@ def print_names(names):
 def main():
     """Program entry point."""
     names = [
-        # Add name here
+        "Andrew"
     ]
 
     print("boo")
